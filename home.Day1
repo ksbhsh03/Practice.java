@@ -1,0 +1,56 @@
+
+
+
+
+class Main {
+  public static void main(String[] args) {
+   String[] classGroup = new String[4]; // 새로운 무언갈 만들때 new를 사용한것
+    classGroup[0] = "최진혁";
+     System.out.println(classGroup.length);  // length는 클래스 그룹이라고하는 변수에 담겨있는 배열에 담을 수 있는 원소의 객수 알아오는것 
+  classGroup[1] = "최유빈";
+     System.out.println(classGroup.length);  
+    classGroup[2] = "한이람";
+     System.out.println(classGroup.length);
+    classGroup[3] = "이고잉";
+     System.out.println(classGroup.length);
+    // String[] classGroip = {"강씨", "박씨", "이씨", "정씨"};  // 배열을 선언 할때는 중괄호를  사용한다.값사이에는,로 구분한다 
+
+    
+
+
+
+    
+    //continue 조건문 예시
+    //   for(int i = 0; i < 10; i++) {
+     //    if(i == 5)
+                  
+     //      continue;
+     //   System.out.println("안녕하세요"+ i);
+     // }
+ 
+
+
+    
+    // break 조건문 예시
+    // for(int i = 0; i < 10; i++) {
+    //     if(i == 5)
+                  
+    //       break;
+    //    System.out.println("안녕하세요"+ i);
+    //  }
+ 
+    
+    // for 조건문 예시
+    // for(int i = 0; i < 00; i++) {
+    //    System.out.println("안녕하세요"+ i);
+    //  }
+
+    
+    // whille 조건문 예시
+    // int i = 0;
+ //    while(i < 10){
+ //      System.out.println("안녕하세요" + 1);
+ //                i=(i + 1);      
+    
+  }
+}
